@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>404 Error Page</title>
+</head>
+<body>
+	<div id="container">
+		<div class="content">
+			<h2>404</h2>
+			<h4>Opps! Page not found</h4>
+			<p> There is no response from the server(ser_resp:null//err_code:404) Please check your internet connection. The page you were looking for doesn't exist or the page may have removed.</p>
+			<a href="netlib.html">Back to Home</a>
+		</div>
+	</div>
+	<style type="text/css">
+		*{
+			margin: 0;	padding: 0;	box-sizing: border-box;
+			font-family: calibri;
+		}
+		body{
+			background: linear-gradient(45deg, #8500ff, #5acaff);
+			height: 100vh;
+		}
+		#container{
+			position: absolute;
+			width: 100%;	height: 100%;
+			display: flex;
+			justify-content: center;
+			align-items: center;
+			background: url('404bg2.png'),#151729;
+			
+			
+			box-shadow: 0 15px 30px rgba(0,0,0,.5);
+		}
+		#container .content{
+			max-width: 600px;			text-align: center;
+		}
+		#container .content h2{
+			font-size: 18vw;
+			opacity: 0.9;
+			color: #fff;
+			line-height: 1em;
+		}
+		#container .content h4{
+			position: relative;
+			font-size: 1.5em;
+			font-family: Calibri;
+			margin-bottom: 20px;
+			color: #111;
+			background: #fff;
+			font-weight: 300;
+			padding: 10px 20px;
+			display: inline-block;
+		}
+		#container .content p{
+			color: #fff;
+			font-size: 1.2em;
+			background: #000;
+			opacity: 0.7;
+		}
+		#container .content a{
+			position: relative;
+			display: inline-block;
+			padding: 10px 25px;
+			background: #ff0562;
+			color: #fff;
+			text-decoration: none;
+			margin-top: 25px;
+			border-radius: 25px;
+		}
+	</style>
+	<script type="text/javascript">
+		var container = document.getElementById('container');
+		window.onmousemove = function(e){
+			var x = - e.clientX/9,
+				y = - e.clientY/9;
+			container.style.backgroundPositionX = x + 'px';
+			container.style.backgroundPositionY = y + 'px';
+		}
+	</script>
+</body>
+</html>
