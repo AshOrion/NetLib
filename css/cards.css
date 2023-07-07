@@ -1,0 +1,1188 @@
+/*styling for books */
+/*<!-- for arranging books in sequences -->*/
+/*.card1,.card2,.card3,.card4,.card5,.card6,.card7,.card8,.card9,.card10,.card11,.card12{	display: inline-block;}*/
+
+/*<!-- Card1 styling -->*/
+				
+					/**{border: 1px solid red;}*/
+					.card1
+					{
+						position: relative;
+						top: 100px;	left: 100px;
+						/*transform: translate(-50%,-50%);*/
+						width: 250px;
+						height: 300px;
+						transform-style: preserve-3d;
+						perspective: 600px;
+						transition: 0.5s;
+					}
+					.card1 .front1
+					{
+						position: relative;
+						width: 100%;
+						height: 100%;
+						background: #000;
+						backface-visibility: hidden;
+						/*transform: rotateX(0deg);*/
+						transition: 0.5s;
+					}
+					.card1:hover .front1
+					{
+						transform: rotateX(-180deg);
+					}
+					.card1 .back1
+					{
+						position: relative;
+						top: -100%;
+						width: 100%;
+						height: 100%;
+						background: #000;
+						backface-visibility: hidden;
+						transform: rotateX(180deg);
+						transition: 0.5s;
+					}
+					.card1 .back1:before
+					{
+						content: '';
+						position: relative;
+						width: 100%;
+						height: 100%;
+						background: rgba(255,255,255,0.1);
+					}
+					.card1:hover .back1
+					{
+						transform: rotateX(0deg);
+					}
+					.card1 .back1 .details1
+					{
+						position: relative;
+						top: 50%;
+						transform: translateY(-50%);
+						width: 100%;
+						text-align: center;
+						padding: 20px;
+						box-sizing: border-box;
+					}
+					.card1 .back1 .details1 h2
+					{
+						margin: 0;
+						padding: 0;
+						font-size: 20px;
+						color: #ffffff;
+					}
+					.card1 .back1 .details1 h2 span
+					{
+						color: #a7a7a7;
+						font-size: 20px;
+					}
+					.social-icons1
+					{
+						padding: 10px 0;
+					}
+					.social-icons1 a
+					{
+						display: inline-block;
+						width: 26px;
+						height: 26px;
+						text-align: center;
+						background: #262626;
+						color: #fff;
+						text-decoration: none;
+						border-radius: 50%;
+						transition: 0.5s;
+					}
+					.social-icons1 a .fa
+					{
+						line-height: 23px;
+					}
+					.social-icons1 a:hover
+					{
+						background: #e91e63;
+					}	
+
+
+/*<!-- Card2 styling -->*/
+					/**{border: 1px solid red;}*/
+					.card2
+					{
+						position: relative;
+						top: 100px;	left: 150px;
+						/*transform: translate(-50%,-50%);*/
+						width: 250px;
+						height: 300px;
+						transform-style: preserve-3d;
+						perspective: 600px;
+						transition: 0.5s;
+					}
+					.card2 .front2
+					{
+						position: relative;
+						width: 100%;
+						height: 100%;
+						background: #000;
+						backface-visibility: hidden;
+						/*transform: rotateX(0deg);*/
+						transition: 0.5s;
+					}
+					.card2:hover .front2
+					{
+						transform: rotateX(-180deg);
+					}
+					.card2 .back2
+					{
+						position: relative;
+						top: -100%;
+						width: 100%;
+						height: 100%;
+						background: #000;
+						backface-visibility: hidden;
+						transform: rotateX(180deg);
+						transition: 0.5s;
+					}
+					.card2 .back2:before
+					{
+						content: '';
+						position: relative;
+						width: 100%;
+						height: 100%;
+						background: rgba(255,255,255,0.1);
+					}
+					.card2:hover .back2
+					{
+						transform: rotateX(0deg);
+					}
+					.card2 .back2 .details2
+					{
+						position: relative;
+						top: 50%;
+						transform: translateY(-50%);
+						width: 100%;
+						text-align: center;
+						padding: 20px;
+						box-sizing: border-box;
+					}
+					.card2 .back2 .details2 h2
+					{
+						margin: 0;
+						padding: 0;
+						font-size: 20px;
+						color: #ffffff;
+					}
+					.card2 .back2 .details2 h2 span
+					{
+						color: #a7a7a7;
+						font-size: 20px;
+					}
+					.social-icons2
+					{
+						padding: 10px 0;
+					}
+					.social-icons2 a
+					{
+						display: inline-block;
+						width: 26px;
+						height: 26px;
+						text-align: center;
+						background: #262626;
+						color: #fff;
+						text-decoration: none;
+						border-radius: 50%;
+						transition: 0.5s;
+					}
+					.social-icons2 a .fa
+					{
+						line-height: 23px;
+					}
+					.social-icons2 a:hover
+					{
+						background: #e91e63;
+					}	
+
+
+/*<!-- Card3 styling -->*/
+					/**{border: 1px solid red;}*/
+					.card3
+					{
+						position: relative;
+						top: 131px;	left: 200px;
+						/*transform: translate(-50%,-50%);*/
+						width: 250px;
+						height: 300px;
+						transform-style: preserve-3d;
+						perspective: 600px;
+						transition: 0.5s;
+					}
+					.card3 .front3
+					{
+						position: relative;
+						width: 100%;
+						height: 100%;
+						background: #000;
+						backface-visibility: hidden;
+						/*transform: rotateX(0deg);*/
+						transition: 0.5s;
+					}
+					.card3:hover .front3
+					{
+						transform: rotateX(-180deg);
+					}
+					.card3 .back3
+					{
+						position: relative;
+						top: -100%;
+						width: 100%;
+						height: 100%;
+						background: #000;
+						backface-visibility: hidden;
+						transform: rotateX(180deg);
+						transition: 0.5s;
+					}
+					.card3 .back3:before
+					{
+						content: '';
+						position: relative;
+						width: 100%;
+						height: 100%;
+						background: rgba(255,255,255,0.1);
+					}
+					.card3:hover .back3
+					{
+						transform: rotateX(0deg);
+					}
+					.card3 .back3 .details3
+					{
+						position: relative;
+						top: 50%;
+						transform: translateY(-50%);
+						width: 100%;
+						text-align: center;
+						padding: 20px;
+						box-sizing: border-box;
+					}
+					.card3.back3 .details3 h2
+					{
+						margin: 0;
+						padding: 0;
+						font-size: 20px;
+						color: #ffffff;
+					}
+					.card3 .back3 .details3 h2 span
+					{
+						color: #a7a7a7;
+						font-size: 20px;
+					}
+					.social-icons3
+					{
+						padding: 10px 0;
+					}
+					.social-icons3 a
+					{
+						display: inline-block;
+						width: 26px;
+						height: 26px;
+						text-align: center;
+						background: #262626;
+						color: #fff;
+						text-decoration: none;
+						border-radius: 50%;
+						transition: 0.5s;
+					}
+					.social-icons3 a .fa
+					{
+						line-height: 23px;
+					}
+					.social-icons3 a:hover
+					{
+						background: #e91e63;
+					}	
+
+
+
+/*<!-- Card4 styling -->*/
+					/**{border: 1px solid red;}*/
+					.card4
+					{
+						position: relative;
+						top: 100px;	left: 250px;
+						/*transform: translate(-50%,-50%);*/
+						width: 250px;
+						height: 300px;
+						transform-style: preserve-3d;
+						perspective: 600px;
+						transition: 0.5s;
+					}
+					.card4 .front4
+					{
+						position: relative;
+						width: 100%;
+						height: 100%;
+						background: #000;
+						backface-visibility: hidden;
+						/*transform: rotateX(0deg);*/
+						transition: 0.5s;
+					}
+					.card4:hover .front4
+					{
+						transform: rotateX(-180deg);
+					}
+					.card4 .back4
+					{
+						position: relative;
+						top: -100%;
+						width: 100%;
+						height: 100%;
+						background: #000;
+						backface-visibility: hidden;
+						transform: rotateX(180deg);
+						transition: 0.5s;
+					}
+					.card4 .back4:before
+					{
+						content: '';
+						position: relative;
+						width: 100%;
+						height: 100%;
+						background: rgba(255,255,255,0.1);
+					}
+					.card4:hover .back4
+					{
+						transform: rotateX(0deg);
+					}
+					.card4 .back4 .details4
+					{
+						position: relative;
+						top: 50%;
+						transform: translateY(-50%);
+						width: 100%;
+						text-align: center;
+						padding: 20px;
+						box-sizing: border-box;
+					}
+					.card4 .back4 .details4 h2
+					{
+						margin: 0;
+						padding: 0;
+						font-size: 20px;
+						color: #ffffff;
+					}
+					.card4 .back4 .details4 h2 span
+					{
+						color: #a7a7a7;
+						font-size: 20px;
+					}
+					.social-icons4
+					{
+						padding: 10px 0;
+					}
+					.social-icons4 a
+					{
+						display: inline-block;
+						width: 26px;
+						height: 26px;
+						text-align: center;
+						background: #262626;
+						color: #fff;
+						text-decoration: none;
+						border-radius: 50%;
+						transition: 0.5s;
+					}
+					.social-icons4 a .fa
+					{
+						line-height: 23px;
+					}
+					.social-icons4 a:hover
+					{
+						background: #e91e63;
+					}	
+
+
+
+/*<!-- Card5 styling -->*/
+					/**{border: 1px solid red;}*/
+					.card5
+					{
+						position: relative;
+						top: 100px;	left: 425px;
+						/*transform: translate(-50%,-50%);*/
+						width: 250px;
+						height: 300px;
+						transform-style: preserve-3d;
+						perspective: 600px;
+						transition: 0.5s;
+					}
+					.card5 .front5
+					{
+						position: relative;
+						width: 100%;
+						height: 100%;
+						background: #000;
+						backface-visibility: hidden;
+						/*transform: rotateX(0deg);*/
+						transition: 0.5s;
+					}
+					.card5:hover .front5
+					{
+						transform: rotateX(-180deg);
+					}
+					.card5 .back5
+					{
+						position: relative;
+						top: -100%;
+						width: 100%;
+						height: 100%;
+						background: #000;
+						backface-visibility: hidden;
+						transform: rotateX(180deg);
+						transition: 0.5s;
+					}
+					.card5 .back5:before
+					{
+						content: '';
+						position: relative;
+						width: 100%;
+						height: 100%;
+						background: rgba(255,255,255,0.1);
+					}
+					.card5:hover .back5
+					{
+						transform: rotateX(0deg);
+					}
+					.card5 .back5 .details5
+					{
+						position: relative;
+						top: 50%;
+						transform: translateY(-50%);
+						width: 100%;
+						text-align: center;
+						padding: 20px;
+						box-sizing: border-box;
+					}
+					.card5 .back5 .details5 h2
+					{
+						margin: 0;
+						padding: 0;
+						font-size: 20px;
+						color: #ffffff;
+					}
+					.card5 .back5 .details5 h2 span
+					{
+						color: #a7a7a7;
+						font-size: 20px;
+					}
+					.social-icons5
+					{
+						padding: 10px 0;
+					}
+					.social-icons5 a
+					{
+						display: inline-block;
+						width: 26px;
+						height: 26px;
+						text-align: center;
+						background: #262626;
+						color: #fff;
+						text-decoration: none;
+						border-radius: 50%;
+						transition: 0.5s;
+					}
+					.social-icons5 a .fa
+					{
+						line-height: 23px;
+					}
+					.social-icons5 a:hover
+					{
+						background: #e91e63;
+					}	
+
+
+/*<!-- Card6 styling -->*/
+					/**{border: 1px solid red;}*/
+					.card6
+					{
+						position: relative;
+						top: 100px;	left: 475px;
+						/*transform: translate(-50%,-50%);*/
+						width: 250px;
+						height: 300px;
+						transform-style: preserve-3d;
+						perspective: 600px;
+						transition: 0.5s;
+					}
+					.card6 .front6
+					{
+						position: relative;
+						width: 100%;
+						height: 100%;
+						background: #000;
+						backface-visibility: hidden;
+						/*transform: rotateX(0deg);*/
+						transition: 0.5s;
+					}
+					.card6:hover .front6
+					{
+						transform: rotateX(-180deg);
+					}
+					.card6 .back6
+					{
+						position: relative;
+						top: -100%;
+						width: 100%;
+						height: 100%;
+						background: #000;
+						backface-visibility: hidden;
+						transform: rotateX(180deg);
+						transition: 0.5s;
+					}
+					.card6 .back6:before
+					{
+						content: '';
+						position: relative;
+						width: 100%;
+						height: 100%;
+						background: rgba(255,255,255,0.1);
+					}
+					.card6:hover .back6
+					{
+						transform: rotateX(0deg);
+					}
+					.card6 .back6 .details6
+					{
+						position: relative;
+						top: 50%;
+						transform: translateY(-50%);
+						width: 100%;
+						text-align: center;
+						padding: 20px;
+						box-sizing: border-box;
+					}
+					.card6 .back6 .details6 h2
+					{
+						margin: 0;
+						padding: 0;
+						font-size: 20px;
+						color: #ffffff;
+					}
+					.card6 .back6 .details6 h2 span
+					{
+						color: #a7a7a7;
+						font-size: 20px;
+					}
+					.social-icons6
+					{
+						padding: 10px 0;
+					}
+					.social-icons6 a
+					{
+						display: inline-block;
+						width: 26px;
+						height: 26px;
+						text-align: center;
+						background: #262626;
+						color: #fff;
+						text-decoration: none;
+						border-radius: 50%;
+						transition: 0.5s;
+					}
+					.social-icons6 a .fa
+					{
+						line-height: 23px;
+					}
+					.social-icons6 a:hover
+					{
+						background: #e91e63;
+					}	
+
+
+
+/*<!-- Card7 styling -->*/
+					/**{border: 1px solid red;}*/
+					.card7
+					{
+						position: relative;
+						top: 130px;	left: 525px;
+						/*transform: translate(-50%,-50%);*/
+						width: 250px;
+						height: 300px;
+						transform-style: preserve-3d;
+						perspective: 600px;
+						transition: 0.5s;
+					}
+					.card7 .front7
+					{
+						position: relative;
+						width: 100%;
+						height: 100%;
+						background: #000;
+						backface-visibility: hidden;
+						/*transform: rotateX(0deg);*/
+						transition: 0.5s;
+					}
+					.card7:hover .front7
+					{
+						transform: rotateX(-180deg);
+					}
+					.card7 .back7
+					{
+						position: relative;
+						top: -100%;
+						width: 100%;
+						height: 100%;
+						background: #000;
+						backface-visibility: hidden;
+						transform: rotateX(180deg);
+						transition: 0.5s;
+					}
+					.card7 .back7:before
+					{
+						content: '';
+						position: relative;
+						width: 100%;
+						height: 100%;
+						background: rgba(255,255,255,0.1);
+					}
+					.card7:hover .back7
+					{
+						transform: rotateX(0deg);
+					}
+					.card7 .back7 .details7
+					{
+						position: relative;
+						top: 50%;
+						transform: translateY(-50%);
+						width: 100%;
+						text-align: center;
+						padding: 20px;
+						box-sizing: border-box;
+					}
+					.card7.back7 .details7 h2
+					{
+						margin: 0;
+						padding: 0;
+						font-size: 20px;
+						color: #ffffff;
+					}
+					.card7 .back7 .details7 h2 span
+					{
+						color: #a7a7a7;
+						font-size: 20px;
+					}
+					.social-icons7
+					{
+						padding: 10px 0;
+					}
+					.social-icons7 a
+					{
+						display: inline-block;
+						width: 26px;
+						height: 26px;
+						text-align: center;
+						background: #262626;
+						color: #fff;
+						text-decoration: none;
+						border-radius: 50%;
+						transition: 0.5s;
+					}
+					.social-icons7 a .fa
+					{
+						line-height: 23px;
+					}
+					.social-icons7 a:hover
+					{
+						background: #e91e63;
+					}	
+
+
+/*<!-- Card8 styling -->*/
+					/**{border: 1px solid red;}*/
+					.card8
+					{
+						position: relative;
+						top: 100px;	left: 575px;
+						/*transform: translate(-50%,-50%);*/
+						width: 250px;
+						height: 300px;
+						transform-style: preserve-3d;
+						perspective: 600px;
+						transition: 0.5s;
+					}
+					.card8 .front8
+					{
+						position: relative;
+						width: 100%;
+						height: 100%;
+						background: #000;
+						backface-visibility: hidden;
+						/*transform: rotateX(0deg);*/
+						transition: 0.5s;
+					}
+					.card8:hover .front8
+					{
+						transform: rotateX(-180deg);
+					}
+					.card8 .back8
+					{
+						position: relative;
+						top: -100%;
+						width: 100%;
+						height: 100%;
+						background: #000;
+						backface-visibility: hidden;
+						transform: rotateX(180deg);
+						transition: 0.5s;
+					}
+					.card8 .back8:before
+					{
+						content: '';
+						position: relative;
+						width: 100%;
+						height: 100%;
+						background: rgba(255,255,255,0.1);
+					}
+					.card8:hover .back8
+					{
+						transform: rotateX(0deg);
+					}
+					.card8 .back8 .details8
+					{
+						position: relative;
+						top: 50%;
+						transform: translateY(-50%);
+						width: 100%;
+						text-align: center;
+						padding: 20px;
+						box-sizing: border-box;
+					}
+					.card8 .back8 .details8 h2
+					{
+						margin: 0;
+						padding: 0;
+						font-size: 20px;
+						color: #ffffff;
+					}
+					.card8 .back8 .details8 h2 span
+					{
+						color: #a7a7a7;
+						font-size: 20px;
+					}
+					.social-icons8
+					{
+						padding: 10px 0;
+					}
+					.social-icons8 a
+					{
+						display: inline-block;
+						width: 26px;
+						height: 26px;
+						text-align: center;
+						background: #262626;
+						color: #fff;
+						text-decoration: none;
+						border-radius: 50%;
+						transition: 0.5s;
+					}
+					.social-icons8 a .fa
+					{
+						line-height: 23px;
+					}
+					.social-icons8 a:hover
+					{
+						background: #e91e63;
+					}
+
+
+
+/*<!-- Card9 styling -->*/
+					/**{border: 1px solid red;}*/
+					.card9
+					{
+						position: relative;
+						top: 100px;	left: 750px;
+						/*transform: translate(-50%,-50%);*/
+						width: 250px;
+						height: 300px;
+						transform-style: preserve-3d;
+						perspective: 600px;
+						transition: 0.5s;
+					}
+					.card9 .front9
+					{
+						position: relative;
+						width: 100%;
+						height: 100%;
+						background: #000;
+						backface-visibility: hidden;
+						/*transform: rotateX(0deg);*/
+						transition: 0.5s;
+					}
+					.card9:hover .front9
+					{
+						transform: rotateX(-180deg);
+					}
+					.card9 .back9
+					{
+						position: relative;
+						top: -100%;
+						width: 100%;
+						height: 100%;
+						background: #000;
+						backface-visibility: hidden;
+						transform: rotateX(180deg);
+						transition: 0.5s;
+					}
+					.card9 .back9:before
+					{
+						content: '';
+						position: relative;
+						width: 100%;
+						height: 100%;
+						background: rgba(255,255,255,0.1);
+					}
+					.card9:hover .back9
+					{
+						transform: rotateX(0deg);
+					}
+					.card9 .back9 .details9
+					{
+						position: relative;
+						top: 50%;
+						transform: translateY(-50%);
+						width: 100%;
+						text-align: center;
+						padding: 20px;
+						box-sizing: border-box;
+					}
+					.card9 .back9 .details9 h2
+					{
+						margin: 0;
+						padding: 0;
+						font-size: 20px;
+						color: #ffffff;
+					}
+					.card9 .back9 .details9 h2 span
+					{
+						color: #a7a7a7;
+						font-size: 20px;
+					}
+					.social-icons9
+					{
+						padding: 10px 0;
+					}
+					.social-icons9 a
+					{
+						display: inline-block;
+						width: 26px;
+						height: 26px;
+						text-align: center;
+						background: #262626;
+						color: #fff;
+						text-decoration: none;
+						border-radius: 50%;
+						transition: 0.5s;
+					}
+					.social-icons9 a .fa
+					{
+						line-height: 23px;
+					}
+					.social-icons9 a:hover
+					{
+						background: #e91e63;
+					}	
+
+
+/*<!-- Card10 styling -->*/
+					/**{border: 1px solid red;}*/
+					.card10
+					{
+						position: relative;
+						top: 130px;	left: 800px;
+						/*transform: translate(-50%,-50%);*/
+						width: 250px;
+						height: 300px;
+						transform-style: preserve-3d;
+						perspective: 600px;
+						transition: 0.5s;
+					}
+					.card10 .front10
+					{
+						position: relative;
+						width: 100%;
+						height: 100%;
+						background: #000;
+						backface-visibility: hidden;
+						/*transform: rotateX(0deg);*/
+						transition: 0.5s;
+					}
+					.card10:hover .front10
+					{
+						transform: rotateX(-180deg);
+					}
+					.card10 .back10
+					{
+						position: relative;
+						top: -100%;
+						width: 100%;
+						height: 100%;
+						background: #000;
+						backface-visibility: hidden;
+						transform: rotateX(180deg);
+						transition: 0.5s;
+					}
+					.card10 .back10:before
+					{
+						content: '';
+						position: relative;
+						width: 100%;
+						height: 100%;
+						background: rgba(255,255,255,0.1);
+					}
+					.card10:hover .back10
+					{
+						transform: rotateX(0deg);
+					}
+					.card10 .back10 .details10
+					{
+						position: relative;
+						top: 50%;
+						transform: translateY(-50%);
+						width: 100%;
+						text-align: center;
+						padding: 20px;
+						box-sizing: border-box;
+					}
+					.card10.back10 .details10 h2
+					{
+						margin: 0;
+						padding: 0;
+						font-size: 20px;
+						color: #ffffff;
+					}
+					.card10 .back10 .details10 h2 span
+					{
+						color: #a7a7a7;
+						font-size: 20px;
+					}
+					.social-icons10
+					{
+						padding: 10px 0;
+					}
+					.social-icons10 a
+					{
+						display: inline-block;
+						width: 26px;
+						height: 26px;
+						text-align: center;
+						background: #262626;
+						color: #fff;
+						text-decoration: none;
+						border-radius: 50%;
+						transition: 0.5s;
+					}
+					.social-icons10 a .fa
+					{
+						line-height: 23px;
+					}
+					.social-icons10 a:hover
+					{
+						background: #e91e63;
+					}	
+
+
+
+/*<!-- Card11 styling -->*/
+					/**{border: 1px solid red;}*/
+					.card11
+					{
+						position: relative;
+						top: 130px;	left: 850px;
+						/*transform: translate(-50%,-50%);*/
+						width: 250px;
+						height: 300px;
+						transform-style: preserve-3d;
+						perspective: 600px;
+						transition: 0.5s;
+					}
+					.card11 .front11
+					{
+						position: relative;
+						width: 100%;
+						height: 100%;
+						background: #000;
+						backface-visibility: hidden;
+						/*transform: rotateX(0deg);*/
+						transition: 0.5s;
+					}
+					.card11:hover .front11
+					{
+						transform: rotateX(-180deg);
+					}
+					.card11 .back11
+					{
+						position: relative;
+						top: -100%;
+						width: 100%;
+						height: 100%;
+						background: #000;
+						backface-visibility: hidden;
+						transform: rotateX(180deg);
+						transition: 0.5s;
+					}
+					.card11 .back11:before
+					{
+						content: '';
+						position: relative;
+						width: 100%;
+						height: 100%;
+						background: rgba(255,255,255,0.1);
+					}
+					.card11:hover .back11
+					{
+						transform: rotateX(0deg);
+					}
+					.card11 .back11 .details11
+					{
+						position: relative;
+						top: 50%;
+						transform: translateY(-50%);
+						width: 100%;
+						text-align: center;
+						padding: 20px;
+						box-sizing: border-box;
+					}
+					.card11.back11 .details11 h2
+					{
+						margin: 0;
+						padding: 0;
+						font-size: 20px;
+						color: #ffffff;
+					}
+					.card11 .back11 .details11 h2 span
+					{
+						color: #a7a7a7;
+						font-size: 20px;
+					}
+					.social-icons11
+					{
+						padding: 10px 0;
+					}
+					.social-icons11 a
+					{
+						display: inline-block;
+						width: 26px;
+						height: 26px;
+						text-align: center;
+						background: #262626;
+						color: #fff;
+						text-decoration: none;
+						border-radius: 50%;
+						transition: 0.5s;
+					}
+					.social-icons11 a .fa
+					{
+						line-height: 23px;
+					}
+					.social-icons11 a:hover
+					{
+						background: #e91e63;
+					}	
+
+
+
+/*<!-- Card12 styling -->*/
+					/**{border: 1px solid red;}*/
+					.card12
+					{
+						position: relative;
+						top: 100px;	left: 900px;
+						/*transform: translate(-50%,-50%);*/
+						width: 250px;
+						height: 300px;
+						transform-style: preserve-3d;
+						perspective: 600px;
+						transition: 0.5s;
+					}
+					.card12 .front12
+					{
+						position: relative;
+						width: 100%;
+						height: 100%;
+						background: #000;
+						backface-visibility: hidden;
+						/*transform: rotateX(0deg);*/
+						transition: 0.5s;
+					}
+					.card12:hover .front12
+					{
+						transform: rotateX(-180deg);
+					}
+					.card12 .back12
+					{
+						position: relative;
+						top: -100%;
+						width: 100%;
+						height: 100%;
+						background: #000;
+						backface-visibility: hidden;
+						transform: rotateX(180deg);
+						transition: 0.5s;
+					}
+					.card12 .back12:before
+					{
+						content: '';
+						position: relative;
+						width: 100%;
+						height: 100%;
+						background: rgba(255,255,255,0.1);
+					}
+					.card12:hover .back12
+					{
+						transform: rotateX(0deg);
+					}
+					.card12 .back12 .details12
+					{
+						position: relative;
+						top: 50%;
+						transform: translateY(-50%);
+						width: 100%;
+						text-align: center;
+						padding: 20px;
+						box-sizing: border-box;
+					}
+					.card12 .back12 .details12 h2
+					{
+						margin: 0;
+						padding: 0;
+						font-size: 20px;
+						color: #ffffff;
+					}
+					.card12 .back12 .details12 h2 span
+					{
+						color: #a7a7a7;
+						font-size: 20px;
+					}
+					.social-icons12
+					{
+						padding: 10px 0;
+					}
+					.social-icons12 a
+					{
+						display: inline-block;
+						width: 26px;
+						height: 26px;
+						text-align: center;
+						background: #262626;
+						color: #fff;
+						text-decoration: none;
+						border-radius: 50%;
+						transition: 0.5s;
+					}
+					.social-icons12 a .fa
+					{
+						line-height: 23px;
+					}
+					.social-icons12 a:hover
+					{
+						background: #e91e63;
+					}	
+
+
+

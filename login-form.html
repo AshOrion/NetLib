@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Login Page</title>
+	<style type="text/css">
+		/**{border: 1px solid black;}*/
+		body{
+			/*background: transparent;*/
+			/*background-size: cover;*/
+		}
+		fieldset{
+			margin-left: 35%;
+			margin-top: 40px;
+			height: 450px;
+			width: 350px;
+			outline: none;
+			box-shadow: 0px 10px 20px white;
+			border-color: gold;
+		}
+		legend{	text-align: center;		}
+		#div{
+			margin-top: -5px;
+			color: char;
+			font-family: calibri;
+			font-size: 35px;
+			text-align: center;
+		}
+		img{
+			height: 90px;
+			width: 90px;
+			border-radius: 100%;
+		}
+		.a{
+			margin-top: 0px;
+			padding: 0px;
+			color: white;
+			font-family: calibri;
+			font-size: 25px;
+			text-align: left;
+		}
+		.b{
+			margin-top: 0;
+			padding: 10px;
+			color: white;
+			font-family: calibri;
+			font-size: 25px;
+			text-align: left;
+		}
+		.c{
+			height: 30px;
+			width: 30px;
+			border-radius: 100%;
+			position: absolute;
+			margin-left: 22px;
+			margin-top: 6px;
+		}
+		.in1{
+			width: 320px;
+			height: 43px;
+			margin-left: 15px;
+			margin-bottom: 20px;
+			color: white;
+			font-size: 20px;
+			font-family: calibri;
+			outline: none;
+			border: none;
+			border-radius: 50px;
+			opacity: 1;
+			box-shadow: 0px 0px 7px white;
+			text-indent: 50px;
+		}
+		input[type][placeholder]{
+			background : none;
+		}
+		#log{
+			width: 150px;
+			height: 45px;
+			margin-top: -10px;
+			margin-left: 104px;
+			background: orange;
+			color: white;
+			font-size: 25px;
+			border: none;
+			border-radius: 50px;
+			
+		}
+		#log:hover{
+			box-shadow: 0px 0px 10px white;
+			background: #ffbf00;
+			cursor: pointer;
+		}
+		#fgt{
+			color: white;
+			font-family: sans-serif;
+		}
+		a{	text-decoration: none;		}
+		a:link{		color: yellow;		}
+		a:visited{	color: #f79862;		}
+		a:active{	color: pink;		}
+		a:hover{	color: red;			}
+	</style>
+</head>
+<body>
+	<fieldset>
+		<legend>
+			<img src="user3.png">
+		</legend>
+		<h2 id="div">
+			Login
+		</h2>
+		<form>
+			<img src="avatar.png" class="c">
+			<input type="e-mail" class="in1" name="e-mail" placeholder="User Id" required="">
+			<br>
+			<img src="pswd.png" class="c">
+			<input type="Password" class="in1" name="password" placeholder="your password" required="">
+			<p>
+				<input type="submit" name="Login" value="Login" id="log">
+			</p>
+			<p id="fgt">
+				Didn't remember your password?<br>
+				<a href="#">Forget password?</a>
+			</p>
+		</form>
+			
+	</fieldset>
+</body>
+</html>
